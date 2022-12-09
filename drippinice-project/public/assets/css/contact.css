@@ -1,0 +1,407 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #0c0c0c;
+  background-color: #ffffff;
+}
+
+.layout_padding {
+  padding: 75px 0;
+}
+
+.layout_padding2 {
+  padding: 45px 0;
+}
+
+.layout_padding2-top {
+  padding-top: 45px;
+}
+
+.layout_padding2-bottom {
+  padding-bottom: 45px;
+}
+
+.layout_padding-top {
+  padding-top: 75px;
+}
+
+.layout_padding-bottom {
+  padding-bottom: 75px;
+}
+
+.heading_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.heading_container h2 {
+  position: relative;
+}
+
+.heading_container h2::before {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 30px;
+  top: 14%;
+  right: -15px;
+  background: -webkit-gradient(linear, left top, right top, from(#fb930a), to(#f5e47b));
+  background: linear-gradient(to right, #fb930a, #f5e47b);
+}
+
+/*header section*/
+.hero_area {
+  height: 100vh;
+  position: relative;
+  background-image: url(../images/hero-bg.png);
+  background-size: cover;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+.sub_page .hero_area {
+  height: auto;
+  background-position: top right;
+}
+
+.hero_area.sub_pages {
+  height: auto;
+}
+
+.header_section .container-fluid {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.header_section .nav_container {
+  margin: 0 auto;
+}
+
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 10px 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: initial;
+}
+
+.btn,
+.btn:focus {
+  outline: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.custom_nav-container .nav_search-btn {
+  background-image: url(../images/search-icon.png);
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position-y: 7px;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  border: none;
+}
+
+.navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-brand img {
+  width: 120px;
+  margin-right: 5px;
+}
+
+.navbar-brand span {
+  font-size: 22px;
+  font-weight: 700;
+  color: #191919;
+  text-transform: uppercase;
+}
+
+.custom_nav-container {
+  z-index: 99999;
+  padding: 5px 0;
+}
+
+.custom_nav-container .navbar-toggler {
+  outline: none;
+}
+
+.custom_nav-container .navbar-toggler .navbar-toggler-icon {
+  background-image: url(../images/menu.png);
+  background-size: 45px;
+}
+
+.quote_btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.quote_btn-container a {
+  color: #000000;
+  position: relative;
+}
+
+.quote_btn-container a .cart_number {
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.quote_btn-container a img {
+  width: 20px;
+  margin: 0 25px;
+}
+.container .f{
+  margin-left: 25%;
+}
+.image{
+  width: 100%;
+  margin-bottom: 5%;
+}
+.par,.ttt{
+  text-align: center;
+}
+.ttt{
+  font-size: 30px;
+  margin: 5%;
+}
+/*end header section*/
+/* css coding aria*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea, #bname , #cname{
+    width: 50%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 8px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    
+  }
+  textarea{
+    resize: none;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 16px;
+    margin-left: 45%;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #818181;
+  }
+  
+  /* Add a background color and some padding around the form */
+
+/*end css coding aria*/
+
+
+/*Footer*/
+.info_section {
+  background-color: #363636;
+  color: #ffffff;
+}
+
+.info_section .info_container .info_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 100px 10px 45px 10px;
+  background-color: #ffffff;
+  width: 200px;
+  border-radius: 0 0 50px 50px;
+}
+
+.info_section .info_container .info_logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info_section .info_container .info_logo a img {
+  width: 200px;
+  margin-right: 0px;
+}
+
+.info_section .info_container .info_logo a span {
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.info_section .info_container .info_contact {
+  padding: 115px 10px 45px 10px;
+}
+
+.info_section .info_container .info_contact a {
+  color: #ffffff;
+}
+
+.info_section .info_container .info_contact a img {
+  margin-right: 10px;
+}
+
+.info_section .info_heading {
+  text-transform: uppercase;
+  margin: 20px 0;
+  position: relative;
+}
+
+.info_section .info_heading::before {
+  content: "";
+  width: 45px;
+  height: 5px;
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 5px;
+  background-color: #f8bf46;
+}
+
+.info_section .info_form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info_section .info_form form .email_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.info_section .info_form form label {
+  color: #5a5959;
+}
+
+.info_section .info_form form input {
+  width: 500px;
+  border: none;
+  background-color: #ffffff;
+  outline: none;
+  padding: 5px;
+}
+
+.info_section .info_form form button {
+  padding: 8px 65px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f5e47b), to(#fb930a));
+  background: linear-gradient(to bottom, #f5e47b, #fb930a);
+  margin-top: 35px;
+  text-transform: uppercase;
+}
+
+.info_section .info_social {
+  padding-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info_section .info_social .social_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info_section .info_social .social_box img {
+  min-width: 10px;
+  margin: 0 10px;
+}
+
+/* footer section*/
+.footer_section {
+  background-color: #363636;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.footer_section p {
+  border-top: 1px solid #ffffff;
+  color: #9c9b9b;
+  margin: 0;
+  text-align: center;
+  padding: 20px 35px;
+  margin: 0;
+}
+
+.footer_section a {
+  color: #9c9b9b;
+}
+@media (max-width: 600px) {
+  input[type=submit]{
+    margin-left: 39%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
